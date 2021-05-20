@@ -6,7 +6,7 @@ const printMyName = (name) => {
     console.log(name)
 }
 
-// If passing argument is only one, then you can also write function as below.
+// If passing only one argument, then you can also write function as below without '()'.
 const printName = name => {
     console.log(name)
 }
