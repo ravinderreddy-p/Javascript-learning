@@ -15,7 +15,7 @@ console.log(first, second); // 2, 3
 let [one, , third] = arr;
 console.log(one, third); // 2, 3
 
-// swap two elements
+// swap two elements or Mutating variables.
 [third, one] = [one, third]
 console.log(one, third);
 
